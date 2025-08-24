@@ -8,7 +8,7 @@ Collapsed Core Architecture
   * not as scalable as three-tiered architectures and provides less redundancy
 
 RIPv2  
-  * Routing Information Protocol uses hop counts to determine the best path between routers via distance-vectors
+  * Routing Information Protocol uses hop counts to determine the best path throughout a network via distance-vectors
   * RIP version 2 is an improvement over version 1 by way of utilizing classless routing, support for variable length subnet masks, and authentication
     * VLSM allows for creation of subnets of varying sizes, optimizing IPv4 address usage
   * RIPv2 uses multicast for updates, reducing network bandwidth usage, while RIPv1 uses broadcasts
