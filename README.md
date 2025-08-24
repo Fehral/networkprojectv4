@@ -114,11 +114,8 @@ Router(dhcp-config)#network 192.168.8.0 255.255.255.0
 Router(dhcp-config)#default-router 192.168.8.1
 Router(dhcp-config)#dns-server 192.168.8.1
 Router(dhcp-config)#domain-name ITDept.com
-Router(dhcp-config)#exit
-Router(config)#exit
-Router#
-%SYS-5-CONFIG_I: Configured from console by console
-copy run start
+Router(dhcp-config)#end
+Router#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
 [OK]
